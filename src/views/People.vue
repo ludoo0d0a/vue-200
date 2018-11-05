@@ -18,12 +18,13 @@
 
 <script>
 import CardPanel from '../components/CardPanel.vue'
-import peopleService from '../services/PeopleService.js';
-
+import peopleService from '../services/PeopleService.js'
+import SfeirForm from '../components/Form.vue'
 
 export default {
     components: {
-        'sfeir-card': CardPanel
+        'sfeir-card': CardPanel,
+		'sfeir-form': SfeirForm
     },
     data() {
         return {
